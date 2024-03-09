@@ -21,5 +21,5 @@ Additionally, make sure you already have a ThingSpeak account and a project.
 ![](./img/diagram.png)
 
 ---
-## Project Showcase
+## Design Diagram Showcase
 ![](./img/showcase.png)
