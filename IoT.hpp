@@ -40,6 +40,7 @@ void InitWifiModule()
   sendData("AT+RST\r\n", 2000, DEBUG);
   delay (1500);
 
+  // replace {WIFI_NAME} and {WIFI_PWD} by your wifi name and wifi password
   sendData("AT+CWJAP=\"{WIFI_NAME}\",\"{WIFI_PWD}\"\r\n", 2000, DEBUG);
   delay (3000);
   
